@@ -1,11 +1,18 @@
 
-body {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+body {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: forestgreen;}
 
 
 .nav{
     padding: 10px;
     background:whitesmoke;
 }
+h1 {font-family: Georgia, 'Times New Roman', Times, serif;
+color: whitesmoke}
+
+h6 {font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke  ;}
+.nav h1 {color: whitesmoke}
 
 .subheader{
     background: whitesmoke;
@@ -37,13 +44,23 @@ body {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
     margin-top: 10px;
     text-align: center;
     vertical-align: middle;
-    background-color: cyan;
     border-style: solid;
     border-color: black;
 }
 
 .container_table th {
     text-align: center;
+    color: whitesmoke;
+}
+
+.container_table th {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.container_table th p {
+    text-align: center;
+    color: whitesmoke;
 }
 .tableheaderr {
     text-align:  right;
@@ -51,8 +68,7 @@ body {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 .tableheaderl {
     text-align: left;
 }
-.body {
-    background-color: wheat;
+
 }
 #viz1 { background-color: crimson;
 text-align: center;
