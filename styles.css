@@ -7,7 +7,9 @@ background-color: forestgreen;}
     padding: 10px;
     background:whitesmoke;
 }
-h1 {font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+h1, h2, h3, h4, h5 {font-family: Georgia, 'Times New Roman', Times, serif;
 color: whitesmoke}
 
 h6 {font-family: Georgia, 'Times New Roman', Times, serif;
@@ -55,7 +57,7 @@ h6 {font-family: Georgia, 'Times New Roman', Times, serif;
 
 .container_table th {
     text-align: center;
-    color: whitesmoke;
+    color: black;
 }
 
 .container_table th p {
@@ -68,9 +70,7 @@ h6 {font-family: Georgia, 'Times New Roman', Times, serif;
 .tableheaderl {
     text-align: left;
 }
-
-
-#viz1 { background-color: crimson;
+#viz1 { background-color: navy;
 text-align: center;
 }
 #viz2 { background-color: forestgreen;
