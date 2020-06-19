@@ -11,7 +11,8 @@ div {
   }
 
 .navbar h1 {float: left;
-color: forestgreen}
+color: forestgreen;
+background-color: whitesmoke;}
 .navbar{
     padding: 10px;
     background:whitesmoke;
@@ -74,7 +75,7 @@ h6 {font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .subheader2{
-    background: whitesmoke;
+    background: forestgreen;
 }
 .nav h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
