@@ -1,4 +1,7 @@
 
+html{ position: relative;}
+
+
 body {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 background-color: forestgreen;}
 
@@ -6,7 +9,10 @@ div {
     resize: vertical;
     overflow: auto;
   }
-.nav{
+
+.navbar h1 {float: left;
+color: forestgreen}
+.navbar{
     padding: 10px;
     background:whitesmoke;
 }
@@ -68,7 +74,7 @@ h6 {font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .subheader2{
-    background: forestgreen;
+    background: whitesmoke;
 }
 .nav h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -124,6 +130,8 @@ text-align: center;
 #viz2 { background-color: forestgreen;
     text-align: center;
     }
+
+
 @media (max-width: 480px){}
 
 
