@@ -2,14 +2,61 @@
 body {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 background-color: forestgreen;}
 
-
+div {
+    resize: vertical;
+    overflow: auto;
+  }
 .nav{
     padding: 10px;
     background:whitesmoke;
 }
 
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+ 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+    
+  }
 
-h1, h2, h3, h4, h5 {font-family: Georgia, 'Times New Roman', Times, serif;
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+ 
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+  .dropdown-content a:hover {background-color: #ddd}
+  
+ 
+  .show {display:block;}
+
+
+h1, h2, h3, h4, h5, p {font-family: Georgia, 'Times New Roman', Times, serif;
 color: whitesmoke}
 
 h6 {font-family: Georgia, 'Times New Roman', Times, serif;
@@ -17,7 +64,7 @@ h6 {font-family: Georgia, 'Times New Roman', Times, serif;
 .nav h1 {color: whitesmoke;}
 
 .subheader{
-    background: whitesmoke;
+    background: forestgreen;
 }
 
 .subheader2{
@@ -30,6 +77,7 @@ h6 {font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .nav li {
     display: inline-block;
+    float: right;
     color: whitesmoke;
     background: darkgray;
     padding: 10px;
