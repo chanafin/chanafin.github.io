@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<!-- CSS Stylesheets with Relative Paths -->
+
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Chris Hanafin Biography Page</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+<style>
+
+body {background-color: #efeee7;
+font-family:Georgia, 'Times New Roman', Times, serif;
+color : #333333;}
+
+header {background-color: #333333;}
+
+h1 {color : #eee;
+font-size: 28px;}
+
+h2{font-size: 24px;}
+
+a{color : #d21034}
+
+.container {width : 1024px;
+margin : 0 auto;}
+
+#main-bio {float: left; width: 70%}
+#contact-info {float: left; width: 30%; line-height: 36px;}
+#bio-image {float: left; width: 200px; margin-right: 30px;}
+#figure {position: relative;}
+#bio-name {position:absolute;
+    left: 2%;
+    top: 150px; color : cyan}
+
+</style>
+
+</head>
+
+<body>
+
+  <header>
+    <h1>Chris Hanafin's Bio</h1>
+  </header>
+
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Here is Chris</h2>
+        <img id="bio-image" src="https://rockcreekpg.com/wp-content/uploads/2016/12/Hanafin_Chris_4138crop.jpg" alt="Chris Hanafin">
+      </section>
+      <p>Chris is a Native Washingtonian with interests in Data Analysis, Commercial Real Estate, hanging with his animals and Washington Sports</p>
+    </section>
+
+    <aside id="contact-info">
+      <h2>Chris' Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:chrishanafin@gmail.com">chrishanafin@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="https://github.com/chanafin" target = "_blank">chanafin</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </aside>
+  </main>
+
+</body>
+
+</html>
