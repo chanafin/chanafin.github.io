@@ -12,7 +12,8 @@ div {
 
 .navbar h1 {float: left;
 color: forestgreen;
-background-color: whitesmoke;}
+background-color: whitesmoke;
+border-style: double;}
 .navbar{
     padding: 10px;
     background:whitesmoke;
